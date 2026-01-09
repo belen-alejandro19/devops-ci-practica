@@ -16,4 +16,4 @@ jobs:
       run: echo "Pipeline ejecutándose correctamente"
 
     - name: Paso con ERROR intencional
-      run: comando_inexistente
+      run: echo "Error corregido, pipeline OK"
