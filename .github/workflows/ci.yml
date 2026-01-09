@@ -2,7 +2,7 @@ name: CI Practica Bloque 1
 
 on:
   push:
-    branches: [ mai ]
+    branches: [ ma ]
 
 jobs:
   build:
