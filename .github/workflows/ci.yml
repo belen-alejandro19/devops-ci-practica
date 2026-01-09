@@ -2,11 +2,11 @@ name: CI Practica Bloque 1
 
 on:
   push:
-    branches: [ ma ]
+    branches: [ main ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22
 
     steps:
     - name: Descargar codigo
