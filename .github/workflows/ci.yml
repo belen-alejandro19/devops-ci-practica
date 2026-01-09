@@ -1,0 +1,19 @@
+name: CI Practica Bloque 1
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Descargar codigo
+      uses: actions/checkout@v4
+
+    - name: Paso correcto
+      run: echo "Pipeline ejecutándose correctamente"
+
+    - name: Paso con ERROR intencional
+      run: comando_inexistente
